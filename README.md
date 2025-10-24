@@ -114,9 +114,9 @@ src/
 
 ```javascript
 localStorage:
-├── "multipoisk_users" → [{id, username, email, password}]
-├── "multipoisk_current_session" → "userId"
-└── "multipoisk_favorites_{userId}" → [Movie[]]
+        "multipoisk_users" - [{id, username, email, password}]
+        "multipoisk_current_session" - "userId"
+        "multipoisk_favorites_{userId}" - [movies]
 ```
 
 Каждый пользователь имеет собственный список избранного, что обеспечивает персонализацию.
