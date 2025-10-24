@@ -1,0 +1,46 @@
+.header {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #F5C61C;
+    margin-bottom: 2%;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: x-large;
+    color: #F5C61C;
+}
+
+.logoBlock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: max-content;
+    width: fit-content;
+    gap: 5px;
+}
+.block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 15px 0 15px 0;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.userName {
+    font-weight: bold;
+    font-size: large;
+    color: white
+}

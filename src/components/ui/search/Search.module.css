@@ -1,0 +1,21 @@
+.searchBlock {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid grey;
+    border-radius: 10px;
+    background-color: white;
+    height:  fit-content;
+    width: 40%;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input {
+    border: none;
+    outline: none;
+}
+
+.searchIcon:hover{
+    cursor:  pointer;
+}

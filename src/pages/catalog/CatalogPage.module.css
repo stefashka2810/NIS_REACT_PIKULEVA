@@ -1,0 +1,38 @@
+.featureBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    margin-bottom: 15px;
+}
+
+.moviesBlock {
+    display: flex;
+    width: 100%;
+    height: min-content;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 15px;
+}
+
+.panel {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.movieBlock {
+    display: flex;
+    flex-direction: row;
+}
+
+
+

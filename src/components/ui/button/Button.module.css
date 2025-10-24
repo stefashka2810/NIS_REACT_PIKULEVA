@@ -1,0 +1,22 @@
+.button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid ;
+    border-radius: 20px;
+    font-size: 12px;
+    margin: 0;
+    padding: 10px;
+    line-height: 1;
+    height: min-content;
+    width: max-content;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+    will-change: transform;
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}

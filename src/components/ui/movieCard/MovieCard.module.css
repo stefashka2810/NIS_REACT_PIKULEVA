@@ -1,0 +1,59 @@
+.movieCard {
+    display: grid;
+    grid-template-columns: minmax(auto, 150px) minmax(200px, 900px);
+    gap: 10px;
+}
+
+.movieCardPanel {
+    display: grid;
+    grid-template-columns: minmax(auto, 150px) minmax(200px, 358px);
+    gap: 10px;
+}
+
+.titleBlock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 5px;
+}
+
+.buttonStar {
+    background-color: transparent;
+    border: none;
+}
+
+.buttonStar:hover {
+    cursor: pointer;
+}
+
+.infoBlock {
+    display: grid;
+    grid-template-rows: max-content max-content max-content;
+    gap: 10px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.addInfoBlock{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 20px;
+    font-size: 12px;
+    background-color: transparent;
+    margin: 0;
+    padding: 6px;
+    line-height: 1;
+    height: min-content;
+}

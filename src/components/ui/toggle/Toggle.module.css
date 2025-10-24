@@ -1,0 +1,21 @@
+.toggleBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: min-content;
+    height: max-content;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.toggleButton{
+    display: inline-flex;
+    padding: 3px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.toggleButton:hover{
+    cursor: pointer;
+}
