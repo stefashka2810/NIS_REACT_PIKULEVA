@@ -1,0 +1,85 @@
+{
+  "pets": [
+    {
+      "id": 1,
+      "name": "Stesha",
+      "species": "pug",
+      "mood": "excellent",
+      "energy": 95,
+      "level": 3,
+      "avatar": "../public/images/pug.png"
+    },
+    {
+      "id": 2,
+      "name": "Polina",
+      "species": "maltipoo",
+      "mood": "good",
+      "energy": 78,
+      "level": 8,
+      "avatar": "../public/images/maltipoo.png"
+    },
+    {
+      "id": 3,
+      "name": "Mark",
+      "species": "pug",
+      "mood": "normal",
+      "energy": 65,
+      "level": 5,
+      "avatar": "../public/images/pug.png"
+    },
+    {
+      "id": 4,
+      "name": "Sonya",
+      "species": "corgi",
+      "mood": "good",
+      "energy": 88,
+      "level": 3,
+      "avatar": "../public/images/corgi.png"
+    },
+    {
+      "id": 5,
+      "name": "Zlata",
+      "species": "chihuahua",
+      "mood": "bad",
+      "energy": 42,
+      "level": 7,
+      "avatar": "../public/images/chihuahua.png"
+    },
+    {
+      "id": 6,
+      "name": "Foma",
+      "species": "corgi",
+      "mood": "excellent",
+      "energy": 92,
+      "level": 9,
+      "avatar": "../public/images/corgi.png"
+    },
+    {
+      "id": 7,
+      "name": "Tima",
+      "species": "maltipoo",
+      "mood": "normal",
+      "energy": 70,
+      "level": 10,
+      "avatar": "../public/images/maltipoo.png"
+    },
+    {
+      "id": 8,
+      "name": "Katya",
+      "species": "chihuahua",
+      "mood": "excellent",
+      "energy": 96,
+      "level": 4,
+      "avatar": "../public/images/chihuahua.png"
+    },
+    {
+      "id": 9,
+      "name": "Masha",
+      "species": "pug",
+      "mood": "good",
+      "energy": 81,
+      "level": 6,
+      "avatar": "../public/images/pug.png"
+    }
+  ]
+}

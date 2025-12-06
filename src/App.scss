@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  background-color: #FFF6E5;
+  font-family: "Alpino-Regular", sans-serif;
+  font-size: 20px;
+  color: #000000;
+}
+
+@font-face {
+  src: url("../public/fonts/Alpino-Regular.otf");
+  font-family: "Alpino-Regular";
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  src: url("../public/fonts/Alpino-Bold.otf");
+  font-family: "Alpino-Regular";
+  font-weight: bold;
+  font-style: normal;
+}
